@@ -216,15 +216,75 @@
 // we think thhe the result will be 10 as the function has been called for num2 only.
 //we were right.
 //Q20.
-function myFunction (num1, num2, num3) {
-  return num1 + num3
+//function myFunction (num1, num2, num3) {
+  //return num1 + num3
 
-}
-  const num1 = 20
-  const num2 = 200
-  const num3 = 1000
+//}
+  //const num1 = 20
+  //const num2 = 200
+  //const num3 = 1000
 
-  const result = myFunction(5, 10, num3, 15)
-  console.log(result)
-  // we think the value will return 1005 as the functions has the three parameters which has been defined within the function and 3 values as 
+  //const result = myFunction(5, 10, num3, 15)
+  //console.log(result)
+  // we think the value will return 1005 as least 3 values have been given as required by the parameters of the function
   // we were right.
+
+  //Q21
+  //function myFunction(num1, num2) {
+    //const result = num1+num2
+   // return result
+  //}
+
+  //const result = myFunction(10,20)
+  //myFunction(100, 2)
+  //console.log(result)
+  //we think that result will either show 30 or a syntax error as a const cant be changed
+  // and result was declared as a constant in the function
+  // we were right it was 30 so it only accepted the first result of the calling of the function
+
+  //Q22
+  //function myFunction(num1, num2) {
+    //let result = num1+num2
+    //return result
+  //}
+  //let result = 0
+  //myFunction(100, 2)
+  //console.log(result)
+  //we think that result will be 102 as reult as been declared as a responsible so it can be changed
+  // we were wrong as the result in the function was not the same as the result given outside the function
+
+  //Q23
+  //function myFunction(num1, num2) {
+    //result = num1+num2
+  //}
+  //let result = 0
+  //myFunction(100, 2)
+  //console.log(result)
+  //we think that result will be 102 as the function no longer asks for the value of result to be returned and can be changed
+  // we were right
+
+  //Q24
+  //function myFunction(num1, num2) {
+    //const result = num1+num2
+    //return 100
+  //}
+  //const result = myFunction(5, 2)
+  //console.log(result)
+  // we think result will be 100 as that is was the function returns its value as
+  //we were right
+
+  //Q25
+  function myFunction(a) {
+    let b = 20
+
+    console.log("a:", a)
+    console.log("b:", b)
+    console.log("c:", c)
+  }
+  let a = 1
+  let b = 2
+  let c = 3
+  myFunction(100)  
+  //we think that console.log will print that a:100 , b:20 and c:3 as the value of a was was meant to be taken as input for the function
+  //b was given within the fucntion and c was declared outside the function as a let
+  //we were right
