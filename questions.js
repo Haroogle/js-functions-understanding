@@ -179,3 +179,52 @@
 //console.log(result)
 //we think result will return -10 as the function will always return true so the second return wont trigger
 //we were right
+// Q16
+//function myFunction(num1) {
+  //if(false) {
+    //return -100
+  
+  //}
+  //return num1 * 10
+//}
+//const result= myFunction(5)
+//console.log(result)
+//we think the value will return 50 as the function will never return false 
+//Q17.
+//function myFunction(num1) {
+  //return -100
+  //return num1 * 10
+//}
+//const result = myFunction(5)
+//console.log(result)
+// we think the value will be -10050 as return called twice and added and showed together.
+// we were wrong as it does not return both value as the first valid function returns only.
+//Q18
+//function myFunction(num1) {
+  ////return num1 * 10
+  //return -100
+//}
+//const result = myFunction(5)
+//console.log(result)
+// we think the value will return 50 as only the first valid function will work.
+//Q19
+//function myFunction(num1, num2, num3){
+ // return num2
+//}
+//const result = myFunction(5, 10, 15)
+//console.log(result)
+// we think thhe the result will be 10 as the function has been called for num2 only.
+//we were right.
+//Q20.
+function myFunction (num1, num2, num3) {
+  return num1 + num3
+
+}
+  const num1 = 20
+  const num2 = 200
+  const num3 = 1000
+
+  const result = myFunction(5, 10, num3, 15)
+  console.log(result)
+  // we think the value will return 1005 as the functions has the three parameters which has been defined within the function and 3 values as 
+  // we were right.
