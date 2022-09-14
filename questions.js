@@ -108,3 +108,74 @@
 //console.log(myFunction)
 // 100 will be logged out on the console when this code runs as num3 has been called and the value is 100 within the function myFunction
 // we were right
+
+//Q11
+//function myFunction(num1, num2, num3) {
+  // return num1 + num2 + num3
+//}
+
+//const num1 = 10
+//const num2 = 1
+//const num3 = 20
+
+//const result = myFunction(1, 1, 1)
+//console.log(result)
+// We think the value of result is going to be 3 as the function is being called to add
+// 1 + 1 + 1 
+//we were right
+
+//Q12
+//function getSomeValue() {
+  // return 2
+//}
+//function myFunction(num1) {
+  // const num2 = getSomeValue()
+  // return num1 * num2
+//}
+//const result = myFunction(5)
+//console.log(result)
+// we think that result will return the value of 10 as myFunction is coded to
+// multiply a given value by getSomeValue, which in this case is 2 
+
+//Q13
+//function getSomeValue() {
+  // return 2
+//}
+
+//function myFunction(num1) {
+   //const num2 = getSomeValue()
+  // return num1 * getSomeValue()
+//}
+
+//const result = myFunction(5)
+//console.log(result)
+// we think that result we still retuirn a value of 10 as the function is still 
+//multiplying the given value of 5 by 2  
+// we were right
+
+//Q14
+//function getSomeValue() {
+  // return 2
+//}
+
+//function myFunction(num1) {
+  // return getSomeValue() * getSomeValue()
+//}
+//const result = myFunction(5)
+//console.log(result)
+// we think that it reult will be 4 as the function is returning the product of getSomevalue times itself
+// which in this case is 2
+//we were right
+
+//Q15
+//function myFunction(num1) {
+   //if(true) {
+     // return -10
+   //}
+  // return num1 * 10
+//}
+
+//const result = myFunction(5)
+//console.log(result)
+//we think result will return -10 as the function will always return true so the second return wont trigger
+//we were right
